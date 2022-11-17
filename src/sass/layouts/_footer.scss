@@ -155,18 +155,20 @@
   }
 }
 .team-footer__title {
+  animation: namebeat 5s infinite;
   color: $secondary-text-color;
-  font-size: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
   line-height: 1.2;
   text-align: center;
 
   @include tablet {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 1.2;
   }
 
   @include desktop {
-    font-size: 40px;
+    font-size: 80px;
     line-height: 1.2;
   }
 }
@@ -245,4 +247,26 @@
 
 .networks-footer__icon {
   fill: $footer-text-color;
+}
+.icon-favorite {
+  animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.25) translateX(5%) translateY(5%);
+  }
+  40% {
+    transform: scale(1.5) translateX(9%) translateY(10%);
+  }
+}
+@keyframes namebeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.25) translateX(2%) translateY(2%);
+  }
 }
