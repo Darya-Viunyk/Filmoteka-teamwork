@@ -5,7 +5,7 @@
   "homepage": "https://Darya-Viunyk.io/filmoteka-teamwork/",
   "scripts": {
     "start": "parcel src/*.html --public-url /filmoteka-teamwork/",
-    "build": "parcel build src/*.html --public-url /Filmoteka_teamwork/"
+    "build": "parcel build src/*.html --public-url /filmoteka-teamwork/"
   },
   "repository": {
     "type": "git",
