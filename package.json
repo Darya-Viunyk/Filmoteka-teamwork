@@ -1,15 +1,15 @@
 {
-  "name": "Filmoteka",
+  "name": "Filmoteka_teamwork",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Reqvite.github.io/Filmoteka",
+  "homepage": "https://Darya-Viunyk.io/Filmoteka_teamwork/",
   "scripts": {
-    "start": "parcel src/*.html --public-url /Filmoteka/",
-    "build": "parcel build src/*.html --public-url /Filmoteka/"
+    "start": "parcel src/*.html --public-url /Filmoteka_teamwork/",
+    "build": "parcel build src/*.html --public-url /Filmoteka_teamwork/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Reqvite/Filmoteka.git"
+    "url": "git+https://github.com/Darya-Viunyk/Filmoteka_teamwork.git"
   },
   "keywords": [],
   "author": "GoIt team",
